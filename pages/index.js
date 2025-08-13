@@ -6,6 +6,7 @@ export default function Home() {
       <h1>Welcome to Roshan's Blog</h1>
       <ul>
         <li><Link href="/post/hello-world">Hello World</Link></li>
+        <li><Link href="/post/harrys-tailor">My Second Post</Link></li> {/* new */}
       </ul>
     </main>
   );

@@ -1,0 +1,32 @@
+export const meta = {
+  title: 'My Second Post',
+  author: 'Roshan Edachali',
+  tags: ['Notes', 'Life'],
+  date: '2025-08-06'
+};
+
+import Layout from '../../components/Layout';
+
+<Layout meta={meta}>
+
+# {meta.title}
+
+By {meta.author} — {meta.date}
+
+**Posted in:**
+- {meta.tags[0]}
+- {meta.tags[1]}
+
+Here’s some paragraph text. You can use **bold**, _italics_, `code`, and lists:
+
+- point one
+- point two
+
+## A subheading
+
+More text here.  
+Add an image from `/public` like:
+
+![Desk setup](/desk.jpg)
+
+</Layout>
